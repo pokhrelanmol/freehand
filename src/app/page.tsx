@@ -3,7 +3,6 @@ import { Footer } from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Products from "@/components/Products";
 import Image from "next/image";
-import Dashboard from "./dashboard/page";
 import Navigation from "@/components/Navigation";
 import { useSession } from "next-auth/react";
 
@@ -14,7 +13,6 @@ export default function Home() {
             <Hero />
             <Awareness />
             <Products />
-            <Dashboard />
             <Footer />
         </div>
     );
