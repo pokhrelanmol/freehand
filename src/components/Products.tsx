@@ -1,10 +1,10 @@
 "use client";
-import { productData } from "@/helper/dummyData";
 
 import React from "react";
 import ProductCard from "./ProductCard";
 import { motion } from "framer-motion";
 import { Reveal } from "@/animation/Reveal";
+import { productData } from "@/helper/dummyData";
 const Products = () => {
     return (
         <div>
@@ -12,7 +12,9 @@ const Products = () => {
             <Reveal>
                 <div className="grid grid-col-1 lg:grid-cols-4 md:grid-cols-2 gap-8 p-5">
                     {productData.map((item) => (
-                        <ProductCard {...item} />
+                        <div key={item.id}>
+                            <ProductCard {...item} />
+                        </div>
                     ))}
                 </div>
             </Reveal>
