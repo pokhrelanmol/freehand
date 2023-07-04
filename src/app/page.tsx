@@ -8,7 +8,7 @@ import { useSession } from "next-auth/react";
 
 export default function Home() {
     return (
-        <div className="mg:max-w-7xl md:mx-auto">
+        <div className="md:max-w-7xl md:mx-auto">
             <Navigation />
             <Hero />
             <Awareness />

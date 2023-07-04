@@ -6,9 +6,9 @@ import { Reveal } from "@/animation/Reveal";
 import Navigation from "./Navigation";
 const Hero = () => {
     return (
-        <div>
+        <div className="w-full h-[600px] bg-[url(/hero.jpg)] bg-cover ">
             <div
-                className={`w-full h-[600px] bg-[url(/hero.jpg)] brightness-90 shadow-lg aspect-auto bg-cover bg-center flex justify-center items-center`}
+                className={` brightness-90 flex justify-center items-center p-10`}
             >
                 <Reveal>
                     <div className="flex flex-col  lg:text-6xl md:text-5xl text-3xl justify-center h-full w-full items-center gap-2">

@@ -15,7 +15,10 @@ export default function RootLayout({
     children: React.ReactNode;
 }) {
     return (
-        <html className="bg-amber-100" lang="en">
+        <html
+            className="bg-gradient-to-r from-indigo-200 via-red-200 to-yellow-100"
+            lang="en"
+        >
             <body className={inter.className}>
                 <NextAuthSessionProvider>{children}</NextAuthSessionProvider>
             </body>

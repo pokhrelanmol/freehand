@@ -38,7 +38,7 @@ const ProductCard = ({
                 <h1 className="text-gray-700 font-semibold">{title}</h1>
                 <p className="text-gray-500">{description}</p>
                 <p className="text-semibold text-gray-500">
-                    Contact information:{" "}
+                    Contact:{" "}
                     <span className="text-gray-400">{contactInfo}</span>
                 </p>
                 <p className="flex">
